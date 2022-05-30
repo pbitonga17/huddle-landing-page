@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     body {
         background: url(../images/bg-desktop.svg) no-repeat hsl(257, 40%, 39%);
         background-size: 100%;
