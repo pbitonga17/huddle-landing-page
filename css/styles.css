@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 header {
-   margin: 0 30px;
+   margin: 30px;
 }
 header img {
     width: 10rem;
@@ -64,6 +64,7 @@ footer {
     gap: 1rem;
     justify-self: center;
     align-self: flex-start;
+    margin: 30px;
 }
 i {
     border: 1px solid white;
