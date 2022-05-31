@@ -39,7 +39,7 @@ header img {
 }
 /*** MAIN ***/
 main {
-    max-width: 30rem;
+    max-width: 25rem;
 }
 .image {
     display: flex;
@@ -57,14 +57,6 @@ main {
     gap: 1.5rem;
     text-align: center;
 }
-@media screen and (min-width: 800px) {
-    .text-section {
-        display: grid;
-        align-self: flex-start;
-        text-align: left;
-        padding: 30px;
-    }
-}
 .text-section h1 {
     font-size: 1.7rem;
 }
@@ -79,8 +71,13 @@ main {
     text-decoration: none;
     font-size: 1rem;
     text-align: center;
-    width: 15rem;
+    width: 13rem;
     margin: 0 auto;
+}
+.text-section a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    box-shadow: 5px 10px 15px rgb(43, 42, 42);
 }
 @media screen and (min-width: 800px) {
     main {
@@ -88,6 +85,21 @@ main {
         justify-content: center;
         align-items: center;
         max-width: 80rem;
+    }
+    .text-section {
+        display: grid;
+        align-self: flex-start;
+        text-align: left;
+        padding: 30px;
+    }
+    .text-section h1 {
+        font-size: 2.5rem;
+    }
+    .text-section p {
+        font-size: 1rem;
+    }
+    .text-section a {
+        margin: 0;
     }
 }
 /*** MAIN -END- ***/
@@ -105,6 +117,10 @@ i {
     border-radius: 50%;
     padding: 0.5rem;
     color: white;
+}
+i:hover {
+    border: 1px solid hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
 }
 @media screen and (min-width: 700px) {
     footer {
